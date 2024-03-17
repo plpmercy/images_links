@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! Explore the world of images.</p>
+            <a href="https://www.pexels.com/search/technology/" target="_blank"><img src="C:\Users\NEEMA\Downloads\tech.jpg" alt="Technology Image"></a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="grid">
+                <a href="https://images.app.goo.gl/SERpA2jGuBJUspSt7" target="_blank"><img src="C:\Users\NEEMA\Downloads\pexels-matthew-montrone-1179229.jpg" alt="forest Image "></a>
+                <a href="https://www.pexels.com/search/forest/" target="_blank"><img src="C:\Users\NEEMA\Downloads\pexels-kaique-rocha-775201.jpg" alt="Nature Image 2"></a>
+                <a href="https://images.app.goo.gl/4EJCj38kf6DGAXss5" target="_blank"><img src="C:\Users\NEEMA\Downloads\beautiful-ocean-pictures.jpg" alt="ocean Image"></a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="https://images.app.goo.gl/CfzciT1mWiK4YBRS7" target="_blank">pilau</a></li>
+                <li><a href="https://images.app.goo.gl/sL38e5zCo9Xyn8dB7" target="_blank">beef stew</a></li>
+                <li><a href="https://images.app.goo.gl/Vc3GZfL28WSf88RH6" target="_blank">mukimo</a></li>
+            </ul>
+            <a href="https://www.the-star.co.ke/sasa/food/2022-09-29-how-to-cook-pilau-with-potatoes-using-simple-ingredients/" target="_blank"><img src="C:\Users\NEEMA\Downloads\pilau.jpg" alt="pilau"></a>
+            <a href="https://damndelicious.net/2020/02/29/best-ever-beef-stew/" target="_blank"><img src="C:\Users\NEEMA\Downloads\beef stew.jpg" alt="beef stew"></a>
+            <a href="https://www.the-star.co.ke/sasa/food/2023-08-08-steps-to-make-delicious-mukimo/" target="_blank"><img src="C:\Users\NEEMA\Downloads\mukimo.jpg" alt="mukimo"></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
